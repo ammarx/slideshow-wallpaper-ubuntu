@@ -9,7 +9,7 @@ picOpts="zoom"
  
 # $saveDir is used to set the location where pictures 
 # are stored.  $HOME holds the path of the current user's home directory
-saveDir="$HOME/Pictures/BingDesktopImages/"
+saveDir="$HOME/Pictures/"
  
 # Get random file
 picName=`/bin/ls -1 "$saveDir" | sort --random-sort | head -1`
