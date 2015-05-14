@@ -7,7 +7,7 @@ export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/en
 # Background settings
 picOpts="zoom"
  
-# $saveDir is used to set the location where Bing pics of the day
+# $saveDir is used to set the location where pictures 
 # are stored.  $HOME holds the path of the current user's home directory
 saveDir="$HOME/Pictures/BingDesktopImages/"
  
