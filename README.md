@@ -1,4 +1,4 @@
-# slideshow-wallpaper-ubuntu
+# slideshow-wallpaper-ubuntu [![Build Status](https://travis-ci.org/ammarx/slideshow-wallpaper-ubuntu.svg?branch=master)](https://travis-ci.org/ammarx/slideshow-wallpaper-ubuntu)
 
 > Shell script to set pictures in a folder as Desktop Slideshow in Ubuntu 14.04
 
