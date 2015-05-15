@@ -6,15 +6,15 @@ Shotwell Photo Manager in Ubuntu already provides an option to set selected imag
 
 # Installation
 ```
-$ git clone git@github.com:ammarx/slideshow-wallpaper-ubuntu.git
+$ git clone https://github.com/ammarx/slideshow-wallpaper-ubuntu.git
 ```
 ##### Change Default Pictures Directory
 By default, the script uses default Pictures folder (i.e `~/Pictures`) in Ubuntu.
-However, you can change it by opening the script with a text editor (i.e. Sublime Text)
+However, you can change it by opening the script with a text editor (i.e. gedit)
 
 ```bash
 $ cd slideshow-wallpaper-ubuntu/
-$ subl src/slideshow-wallpaper-ubuntu.sh
+$ gedit src/slideshow-wallpaper-ubuntu.sh
 ```
 and changing the path of the `saveDir` variable
 ```
@@ -29,7 +29,7 @@ Open the terminal and type
 $ crontab -e
 ```
 
-You will see a text editor inside the terminal. Scroll to the end and set the interval of time at which you want the script to be executed at. I have set it mine to run at every 0, 15, 30, 45 mins of every hr, every day. To do that, you have to type:
+You will see a text editor inside the terminal. Scroll to the end and set the interval of time at which you want the script to be executed at. I have set it mine to run at every 0, 15, 30, 45 minutes of every hour, every day. To do that, you have to type:
 
 ```
 0, 15, 30, 45 * * * * bash '/home/[computer name]/slideshow-wallpaper-ubuntu.sh' # JOB_ID_1
