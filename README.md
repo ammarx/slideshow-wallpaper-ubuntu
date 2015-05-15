@@ -32,12 +32,12 @@ $ crontab -e
 You will see a text editor inside the terminal. Scroll to the end and set the interval of time at which you want the script to be executed at. I have set it mine to run at every 0, 15, 30, 45 minutes of every hour, every day. To do that, you have to type:
 
 ```
-0, 15, 30, 45 * * * * bash '/home/[computer name]/slideshow-wallpaper-ubuntu.sh' # JOB_ID_1
+0,15,30,45 * * * * bash '/home/[computer name]/slideshow-wallpaper-ubuntu/src/slideshow-wallpaper-ubuntu.sh'
 ```
 
 ![](https://raw.githubusercontent.com/ammarx/slideshow-wallpaper-ubuntu/master/cron1.png)
 
-Where '/home/**[computer name]**/slideshow-wallpaper-ubuntu.sh' is the path to the script.
+Where '/home/**[computer name]**/slideshow-wallpaper-ubuntu/src/slideshow-wallpaper-ubuntu.sh' is the path to the script.
 
 After doing this, you have to save the file. To do that press 'ctrl+x' and then press 'Y' and enter.
 
